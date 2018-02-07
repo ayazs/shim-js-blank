@@ -27,13 +27,15 @@ $ git add -A; git commit -am "Initial commit"
 Install tools
 * ava: Test framework.
 * chokidar-cli: watches source files as they are changed.
-* precommit-hook: Auto runs npm scrpts.
+* jshint: JavaScript Code Quality Tool.
+* precommit-hook: Auto runs npm scripts.
 ```
-$ npm i --save-dev ava chokidar-cli precommit-hook
+$ npm i --save-dev ava chokidar-cli jshint precommit-hook
 ```
 ## Configure
-Open package.json and add scripts from sample/package.json.
+Open package.json and add scripts from samples/package.json.
+
+Use samples/.jshintrc as a base for [JSHint configuration](http://jshint.com/docs/).
 
 ## References
-1. Setting up a Minimal, Yet Useful JavaScript Dev Environment<br/>
-https://dev.to/corgibytes/setting-up-a-minimal-yet-useful-javascript-dev-environment
+1. [Setting up a Minimal, Yet Useful JavaScript Dev Environment](https://dev.to/corgibytes/setting-up-a-minimal-yet-useful-javascript-dev-environment)

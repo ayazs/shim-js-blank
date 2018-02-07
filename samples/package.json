@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "test": "ava",
+    "lint": "jshint .",
+    "validate": "npm ls",
+    "dev": "chokidar '**/*.js' -c 'jshint . && ava'"
+  },
+  "pre-commit": [
+    "test",
+    "lint",
+    "validate"
+  ]
+}
