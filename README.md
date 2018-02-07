@@ -24,6 +24,11 @@ $ git init
 $ git add -A; git commit -am "Initial commit"
 ```
 
+Install and configure Webpack. This tool tracks and budles dependencies used by the project. Installation will cause a *node_modules* folder to be created. The package.json file will automatically be updated during the install process, adding "webpack" in the "devDependencies" section.
+```
+$ npm i --save-dev webpack
+```
+
 Install tools
 * ava: Test framework.
 * chokidar-cli: watches source files as they are changed.
@@ -39,3 +44,4 @@ Use samples/.jshintrc as a base for [JSHint configuration](http://jshint.com/doc
 
 ## References
 1. [Setting up a Minimal, Yet Useful JavaScript Dev Environment](https://dev.to/corgibytes/setting-up-a-minimal-yet-useful-javascript-dev-environment)
+2. [A modern Javascript project setup](https://medium.com/netscape/a-modern-javascript-project-setup-b7842955d1d3)
