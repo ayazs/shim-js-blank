@@ -12,13 +12,13 @@ Initialize Node.js<br/>
 $ npm init --yes
 ```
 
-Create index.js as well as module and test folders.<br/>
+Create module and test folders as well as index.js and index.test.js.
 ```
 $ mkdir lib test
-$ touch index.js lib/meaningOfLife.js test/index.test.js test/meaningOfLife.test.js
+$ touch index.js test/index.test.js
 ```
 
-Initialize GIT repository and create initial commit
+Initialize GIT repository and create initial commit.
 ```
 $ git init
 $ git add -A; git commit -am "Initial commit"
@@ -41,6 +41,10 @@ $ npm i --save-dev ava chokidar-cli jshint precommit-hook
 Open package.json and add scripts from samples/package.json.
 
 Use samples/.jshintrc as a base for [JSHint configuration](http://jshint.com/docs/).
+
+Copy .gitignore and modify as needed.
+
+Copy contents of samples/index.js and samples/index.test.js to the corresponding files and modify as needed.
 
 ## References
 1. [Setting up a Minimal, Yet Useful JavaScript Dev Environment](https://dev.to/corgibytes/setting-up-a-minimal-yet-useful-javascript-dev-environment)
