@@ -4,7 +4,7 @@ Blank shim project with instructions on setting up dev environment for JavaScrip
 ## Initialize and install tools
 Create a project directory and cd into it.<br/>
 ```
-$ mkdir awesome-module && cd $_
+$ mkdir module-name && cd $_
 ```
 
 Initialize Node.js<br/>
