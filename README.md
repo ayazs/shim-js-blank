@@ -31,6 +31,8 @@ Install tools
 ```
 $ npm i --save-dev ava chokidar-cli precommit-hook
 ```
+## Configure
+Open package.json and add scripts from sample/package.json.
 
 ## References
 1. Setting up a Minimal, Yet Useful JavaScript Dev Environment<br/>
